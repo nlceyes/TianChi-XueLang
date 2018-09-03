@@ -32,6 +32,20 @@
 	
 	将1.1-1.3得到的结果文件取平均，得到最终预测结果。
 
-3.前期准备：
-	
-	待更新。。。
+3.心得：
+
+  * CNN中的权重初始化非常重要非常重要非常重要！
+  
+  * 选择合适的学习率也非常重要！
+  
+  * 基于Pretrained模型进行调整比自己手写模型再从头训练更高效！ 
+  
+  * 前期调整的Pretrained模型和其得分如下：
+  
+  		No.	Model						AUC
+		1	AlexNet(KaiMing)				0.7606
+		2	ResNet18(Pretrained)				0.8562
+		3	ResNet18(Pretrained, Tuned LR)			0.8809
+		4	ResNet18(Pretrained, Tuned LR, Aug Trainset)	0.8812
+		5	ResNet34(Pretrained, Tuned LR)			0.8842
+		6	Avg of 3, 4, 5 (Final)				0.9118
