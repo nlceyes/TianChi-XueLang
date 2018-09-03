@@ -46,13 +46,13 @@
   
   * 前期调整的Pretrained模型和其得分如下：
   
-  		No.		Model											AUC and MAP
-		1		ResNet18(Pretrained, Tuned LR)					0.6109
-		2		ResNet50(Pretrained, Tuned LR)					0.6148
-		3		DenseNet201(Pretrained, Tuned LR)				0.6314
-		4		DenseNet201(Pretrained, Tuned LR, Aug Testset)	0.6278
-		5		InceptionV3(Pretrained, Tuned LR)				0.6448
-		6		InceptionV3(Pretrained, Tuned LR, Aug Trainset)	0.6437
-		7		InceptionV4(Pretrained, Tuned LR)				0.6403
-		8		NasNet-A-Large(Pretrained, Tuned LR)			0.6639
-		9		Avg of 8, 5 (Final)								0.6881
+  		No.	Model						AUC and MAP
+		1	ResNet18(Pretrained, Tuned LR)			0.6109
+		2	ResNet50(Pretrained, Tuned LR)			0.6148
+		3	DenseNet201(Pretrained, Tuned LR)		0.6314
+		4	DenseNet201(Pretrained, Tuned LR, Aug Testset)	0.6278
+		5	InceptionV3(Pretrained, Tuned LR)		0.6448
+		6	InceptionV3(Pretrained, Tuned LR, Aug Trainset)	0.6437
+		7	InceptionV4(Pretrained, Tuned LR)		0.6403
+		8	NasNet-A-Large(Pretrained, Tuned LR)		0.6639
+		9	Avg of 8, 5 (Final)				0.6881
